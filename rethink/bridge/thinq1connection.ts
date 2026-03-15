@@ -1,7 +1,7 @@
-import { Thinq1Device } from './thinqApi.js'
+import { Thinq1Device } from './thinqApi'
 import { TypedEmitter } from 'tiny-typed-emitter';
 import * as tls from 'node:tls'
-import { splitter, make as makeFrame } from '../util/length_prefixed_frame.js'
+import { splitter, make as makeFrame } from '../util/length_prefixed_frame'
 import fetch from 'node-fetch';
 import * as HTTPS from 'node:https';
 import { randomUUID } from 'node:crypto';

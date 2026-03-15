@@ -1,5 +1,5 @@
 import * as mqtt from 'mqtt'
-import { Thinq2Device } from './thinqApi.js'
+import { Thinq2Device } from './thinqApi'
 import { TypedEmitter } from 'tiny-typed-emitter';
 
 type ConnectionEvents = {
