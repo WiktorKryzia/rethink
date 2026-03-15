@@ -2,7 +2,7 @@ import TLVDevice from './tlv_device'
 import { Device as Thinq2Device } from "../thinq2/device"
 import { Config, type Connection } from '../homeassistant'
 import { type Metadata } from '../thinq'
-import { allowExtendedType } from '../../util/util'
+import { allowExtendedType } from '../../util/casting'
 import HADevice from './base'
 
 export default class Device extends TLVDevice {
